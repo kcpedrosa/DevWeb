@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+		<title>Página principal</title>
+		<meta charset="utf-8">
+		<!--meta é self closing, n precisa de tag fechando-->
+
+	</head>
+
+	<body>
+		<h2>LOGIN</h2>
+
+		<form >
+			<!--poderia colocar dentro de form action="processa.php"-->
+			Login:<br>
+			<input type="text" name="login"><br><!--o name aparece na barra de texto da url-->
+
+			Senha:<br>
+			<input type="password" name="senha"><br>
+
+			<input type="button" value="LOG IN">
+			<!--professor tinha colocado submit no lugar de button-->
+
+
+		</form>
+
+		<form>
+
+			<h3>CADASTRE-SE</h3>
+			Login:<br>
+				<input type="text" name="login"><br>
+				<br>
+
+			Sexo: <br>
+			<input type="radio" name="sexo" value="M"> Masculino<br>
+			<input type="radio" name="sexo" value="F"> Feminino<br>
+			<br>
+
+			Interesses<br>
+			<input type="checkbox" name="interesses"> Futebol<br>
+			<input type="checkbox" name="interesses"> Cursos<br>
+			<input type="checkbox" name="interesses"> Moda<br>
+			<br>
+
+			Estado<br>
+			<select name="estado">
+				<option value="PE">PE</option>
+				<option value="MG">MG</option>
+				<option value="RS">RS</option>
+				<option value="SP">SP</option>
+			</select>
+			<br>
+			<br>
+
+			Observações: <br>
+			<textarea>
+				
+			</textarea>
+			<br>
+			<br>
+
+			<input type="submit" value="Cadastrar">
+
+		</form>
+
+
+
+
+
+
+	</body>
+
+</html>
