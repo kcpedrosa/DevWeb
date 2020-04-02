@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Museu Nacional</title>
+
+	<!--Normalize CSS-->
+	<link rel="stylesheet" type="text/css" href="normalize.css">
+
+	<!--Estilo customizado-->
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+
+	<!--[if lt IE 9]>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+	<![endif]-->
+
+
+</head>
+<body>
+
+	<div id="container">
+		
+		<header>
+			<div id="logo">
+				<h1><a href="">Museu nacional</a></h1>
+
+			</div>
+
+			<nav>
+				<ul>
+					<li><a href="">Home</a></li>
+					<li><a href="">Exposições</a></li>
+					<li><a href="">Pesquisa</a></li>
+					<li><a href="">Acervo</a></li>
+					<li><a href="">Vídeos</a></li>
+					<li><a href="">Fotos</a></li>
+					<li><a href="">Contato</a></li>
+
+				</ul>
+			</nav>
+
+		</header>
+
+		<div id="principal" >
+			<!--acima havia uma style border-->
+
+			<div id="conteudo">
+				<section id="capa">
+					<img src="img/museu.png">
+				</section>
+
+				<section id="postagens">
+
+					<article id="video">
+						<h3>Vídeo: conheça o museu</h3>
+						<iframe width="310" height="170" src="https://www.youtube.com/embed/RGUYb-hivrc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</article>
+
+					<article id="mapa">
+						<h3>Mapa: encontre o museu</h3>
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3675.206311665319!2d-43.228717585034445!3d-22.90575998501238!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997e58a085b7af%3A0x4d11e9a933d38ce3!2sMuseu%20Nacional%20-%20UFRJ!5e0!3m2!1spt-BR!2sbr!4v1577228767562!5m2!1spt-BR!2sbr" width="310" height="170" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+
+					</article>
+
+					<article id="exposicoes">
+						<h3>Exposições</h3>
+						<ul>
+							<li><a href="">Os assustadores insetos</a></li>
+							<li><a href="">Grandes descobertas</a></li>
+							<li><a href="">Etnografia indígena</a></li>
+							<li><a href="">Origem das espécies</a></li>
+							<li><a href="">As tartarugas de Galápagos</a></li>
+							<li><a href="">Aventura com dinossauros</a></li>
+							<li><a href=""><strong>Veja mais</strong></a></li>
+						</ul>
+
+					</article>
+
+					<article id="historia">
+						<h3>200 anos de história</h3>
+						<p>
+							O Museu Nacional abrigava um vasto acervo com mais de 20 milhões de itens, englobando alguns dos mais relevantes registros da memória brasileira no campo das ciências naturais e antropológicas, bem como amplos e diversificados conjuntos de itens provenientes de diversas regiões do planeta, ou produzidos por povos e civilizações antigas.
+						</p>
+						<a href=""><strong> Leia mais </strong></a>
+					</article>
+
+
+				
+
+
+				</section>
+
+			</div><!--fim do conteudo-->
+
+		
+
+
+			<aside>
+				<section id="depoimento">
+					<img src="img/depoimento.png">
+				</section>
+
+				<section id="visita">
+					<h1>Faça uma visita</h1>
+					<form>
+						<fieldset>
+							<legend>Selecione uma data</legend>
+							<label class="campo" for="data">Data</label>
+							<input type="text" id="data" value="dd/mm/aaaa">
+
+							<label for="qtd">Qtd de pessoas</label>
+							<input class="campo" style="width: 30px;" type="text" id="qtd" value="1">
+						</fieldset>
+
+						<input class="botao" type="submit" value="verificar disponibilidade">
+					</form>
+				</section>
+
+				<section id="galeria">
+					<h1>Galeria de fotos</h1>
+					<a href="">
+						<img src="img/imagem1.jpg" height="93" width="93" alt="Descricao da imagem caso nao carregue">
+					</a>
+					<a href="">
+						<img src="img/imagem2.jpg" height="93" width="93" alt="Descricao da imagem caso nao carregue">
+					</a>
+					<a href="">
+						<img src="img/imagem3.jpg" height="93" width="93" alt="Descricao da imagem caso nao carregue">
+					</a>
+					<a href="">
+						<img src="img/imagem4.jpg" height="93" width="93" alt="Descricao da imagem caso nao carregue">
+					</a>
+
+
+				</section>
+
+			</aside>
+
+			<footer >
+				<p>
+					<a href="">Home</a>
+					<a href="">Exposições</a>
+					<a href="">Pesquisa</a>
+					<a href="">Acervo</a>
+					<a href="">Vídeos</a>
+					<a href="">Fotos</a>
+					<a href="">Contatos</a>
+				</p>
+				<p>
+					2019 <a href="">Museu Nacional</a> Todos os direitos reservados
+				</p>
+
+
+			</footer>
+
+			
+		</div><!--fim do PRINCIPAL-->
+
+
+		
+
+	</div>
+
+
+
+
+
+
+
+</body>
+</html>
