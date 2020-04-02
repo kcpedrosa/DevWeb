@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>POSICIONAMENTO[static, relative, absolute e fixed]</title>
+		<meta charset="utf-8">
+
+		<style type="text/css">
+			
+			body{
+				background: #007fc7;
+			}
+
+
+			#container{
+				background: #FFF;
+				width: 800px;
+				margin: 10px auto;
+				padding: 10px;
+				position: relative;
+				/*o container deve ter uma pos
+				relativa, absoluta, ou fixa p
+				que se consiga alinhar um elemento absoluto em relação a ele. No caso o elemento abs é o <p2 class absolute>. Se o container ficar em static, que é padrao, n precisa escrever, o <p> vai alinhar de acordo com o body [vai 'seguir' a página, se vc aumentar ou diminuir ela] e nao vai ficar contido no container[o container é o  quadrado branco*/
+			}
+
+			h1{
+				
+			}
+
+			p{
+				width: 400px;
+				
+			}
+
+			.fixed{
+				border: 1px solid red;
+				background: #f2f2f2;
+				position: fixed;
+				/*fixo em rel a janela do navegador, era o q eu queria saber!*/
+				margin: 0px;
+				bottom: 0px;
+				/*pode-se colocar negativo pra colar no top[ou colocar margin aqui pra zero px], pois mesmo colocando zero px existe uma margem padrao dos paragrafos. Experimente colocar direto em p a margin para 0px*/
+				right: 0px;
+				
+
+			}
+
+			.absolute{
+				border: 1px solid red;
+				background: #f2f2f2;
+				position: absolute;
+				top: 80px;
+				right: 80px;
+
+			}
+
+			.relative{
+				border: 1px solid red;
+				position: relative;
+				/*top, bottom , right e left*/
+				top: -20px;
+				left: 80px;
+			}
+
+
+
+		</style>
+	</head>
+	<body>
+		<div id="container">
+			<h1>Posicionamentos</h1>
+			<p>
+				1 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc arcu tortor, eleifend ac tincidunt quis, aliquam sit amet enim. Etiam est nunc, eleifend quis ex eget, tincidunt ullamcorper nisl. Nunc quis ex vitae enim accumsan elementum. Integer faucibus dui eu lobortis malesuada. Quisque finibus varius hendrerit.
+			</p> 
+			<p class="fixed">
+				2 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc arcu tortor, eleifend ac tincidunt quis, aliquam sit amet enim. Etiam est nunc, eleifend quis ex eget, tincidunt ullamcorper nisl. Nunc quis ex vitae enim accumsan elementum. Integer faucibus dui eu lobortis malesuada. Quisque finibus varius hendrerit.
+			</p> 
+			<p>
+				3 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc arcu tortor, eleifend ac tincidunt quis, aliquam sit amet enim. Etiam est nunc, eleifend quis ex eget, tincidunt ullamcorper nisl. Nunc quis ex vitae enim accumsan elementum. Integer faucibus dui eu lobortis malesuada. Quisque finibus varius hendrerit.
+			</p> 
+			<p>
+				3 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc arcu tortor, eleifend ac tincidunt quis, aliquam sit amet enim. Etiam est nunc, eleifend quis ex eget, tincidunt ullamcorper nisl. Nunc quis ex vitae enim accumsan elementum. Integer faucibus dui eu lobortis malesuada. Quisque finibus varius hendrerit.
+			</p> 
+			<p>
+				3 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc arcu tortor, eleifend ac tincidunt quis, aliquam sit amet enim. Etiam est nunc, eleifend quis ex eget, tincidunt ullamcorper nisl. Nunc quis ex vitae enim accumsan elementum. Integer faucibus dui eu lobortis malesuada. Quisque finibus varius hendrerit.
+			</p> 
+			<p>
+				3 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc arcu tortor, eleifend ac tincidunt quis, aliquam sit amet enim. Etiam est nunc, eleifend quis ex eget, tincidunt ullamcorper nisl. Nunc quis ex vitae enim accumsan elementum. Integer faucibus dui eu lobortis malesuada. Quisque finibus varius hendrerit.
+			</p> 
+			<p>
+				3 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc arcu tortor, eleifend ac tincidunt quis, aliquam sit amet enim. Etiam est nunc, eleifend quis ex eget, tincidunt ullamcorper nisl. Nunc quis ex vitae enim accumsan elementum. Integer faucibus dui eu lobortis malesuada. Quisque finibus varius hendrerit.
+			</p> 
+
+		</div>
+
+
+		
+	</body>
+
+</html>

@@ -1,0 +1,114 @@
+/*Modelo de caixa
+*/
+/*
+.conteudo{
+	border: 1px solid red;
+	/*padding-top: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	*/
+	/*padding: 20px 15px 10px 5px;*/
+	/*observe a ordem dos numeros
+	aplica em top, dps right, etc*/
+	/*padding:  20px 5px;*/
+	/*padding: 20px;
+
+	/*margin-top: 20px;
+	margin-right: 20px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+	abaixo funciona igual ao padding em relac
+	aos parametros*/
+
+	/*margin: 10px;
+
+	/*width: 150px;
+
+}
+.conteudo2{
+	/*caixas proximas usam a margin maior
+	nesse caso a margin aplic 
+	foi 50px e n 10px*/ 
+	/*margin: 50px;
+	border: 1px solid red;
+	width: 150px;
+} 
+
+/*
+/*Noticia*/
+/*#noticia{
+	background: #58FAF4;
+	border: 1px solid black;
+	padding: 10px;
+
+}
+
+h2{
+	border: 1px solid red;
+	margin: 0px;
+}
+*/
+/*AULA 40*/
+.conteudo{
+	background: blue;
+	border: 3px solid green;
+	width: 150px;
+	height: 350px;
+	margin: 10px;
+	float: left;
+	
+}
+
+.conteudo1{
+	background: red;
+	border: 3px solid green;
+	width: 150px;
+	height: 150px;
+	margin: 10px;
+	float: left;
+	/*se por float left a cont1 fica SOBRE a cont2
+	*/
+}
+
+.conteudozero{
+	background: red;
+	border: 1px solid gray;
+	width: 150px;
+	height: 150px;
+	margin: 10px;
+}
+
+.clear{
+	clear: both;
+}
+
+#principal{
+	width: 920px;
+	/*border: 3px solid red;*/
+	
+}
+
+/*AULA 41*/
+
+#news{
+	width: 920px;
+	border: 3px solid red;
+	
+}
+
+.noticia{
+	background: #e5e5e5;
+	padding: 5px;
+	width: 280px;
+	margin: 8px;
+	float: left;
+}
+
+.imagem-galeria{
+	background: #f4f4f4;
+	width: 265px;
+	padding: 5px;
+	float: left;
+	margin: 15px:;
+}
