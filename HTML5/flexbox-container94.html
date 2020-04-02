@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+	<title>Flexbox - Flexible Box Layout 94</title>
+	<meta charset="utf-8">
+
+	<style type="text/css">
+
+		#conteudo {
+			background: #dcdcdc;
+			width: ;
+			height: 600px;
+			border: 1px solid red;
+			display: -webkit-box;
+			display: -ms-flexbox;
+			display: flex;
+			/*usei o Autoprefixer CSS online*/
+
+
+
+		}
+
+		.item {
+			width: ;
+			height: 100px;
+			margin: 10px;
+			background: white;
+			border: 1px solid grey;
+
+			flex-grow: 0;
+
+			flex-shrink: 1;
+
+			/*Indica o tamanho inicial do flex item
+			antes da distribcao do espaço restante*/
+			flex-basis: 100px;
+
+		}
+
+		.item1 {
+			/*flex-shrink: 1;*/
+
+		}
+
+		.item2 {
+			/*flex-shrink: 2;*/
+
+		}
+
+		.item3 {
+			/*flex-shrink: 5;*/
+			/*o item 3 vai ficar bem slim*/
+
+		}
+
+
+
+	</style>
+
+	
+	
+
+
+</head>
+
+<body>
+
+	<h1>Flexbox</h1>
+	<div id="conteudo">
+		<div class="item item1">01</div>
+		<div class="item item2">02</div>
+		<div class="item item3">03</div>
+		<div class="item ">04</div>
+
+	</div>
+
+
+	
+
+
+
+	<footer>
+		<p> &copy; 2020 - K C Pedrosa   </p>
+	</footer>
+		
+
+
+
+</body>
+
+</html>

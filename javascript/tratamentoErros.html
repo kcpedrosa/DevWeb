@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>JavaScript</title>
+
+	<script>
+		//throw interrompe o script
+		//throw new Error('houve um erro mas ja vamos resolver')
+
+		var video = Array()
+		video[1] = Array()
+		video[1]['nome'] = 'Fullmetal Alchemist'
+		video[1]['categoria'] = 'Anime'
+
+		function getVideo(video) {
+
+			try {
+			console.log(video[0]['nome'])
+
+		} catch(erro) {
+			console.log(erro)
+			console.log('agora sim podemos tratar o erro')
+			//atencao ao throw error
+			throw new Error('houve um erro mas ja vamos resolver')
+		} finally {
+			console.log('sempre passa por aqui')
+		}
+
+			console.log('a aplicacao nao morreu')
+		}
+		
+
+		function tratarErro(erro) {
+			console.log(erro)
+		}
+
+		getVideo(video)
+	
+
+	
+
+
+	</script>
+
+
+
+</head>
+
+
+<body>
+	
+
+</body>
+
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>JavaScript</title>
+
+<script>
+	/*
+	if (2 == 2 && 3 >= 1 && 'a' == 'b') {
+		document.write('Verdadeiro')
+	}
+	else {
+		document.write('Falso')
+	}
+
+	if (2 == 3 || 3 >= 5 || 'a' == 'b') {
+		document.write('Verdadeiro')
+	}
+	else {
+		document.write('Falso')
+	}
+
+	if ((!(2 == 2)) && (!(3 >= 1))) {
+		document.write('Verdadeiro')
+	}
+	else {
+		document.write('Falso')
+	}
+	*/
+	var media = 7
+	var faltas_maximas = 15
+	var notafinal = prompt('digite a notafinal do aluno')
+	var faltas = prompt('digite AS FALTAS do aluno')
+	//prompt entra dados como str
+
+
+	if (notafinal >= media && faltas <= faltas_maximas) {
+		document.write('PASSOU ESTA DE FERIAS [verdadeiro]')
+	} else {
+		document.write('RECUPERACAO/REPROVADO VA ESTUDAR MAIS[falso]')
+	}
+	
+	var resultado = notafinal >= media && faltas <= faltas_maximas ? 'GUT GEMACHT' : 'NICHT GUT GEMACHT'
+
+	document.write(resultado)
+	
+
+</script>
+
+
+
+</head>
+
+
+<body>
+	
+
+</body>
+
+</html>

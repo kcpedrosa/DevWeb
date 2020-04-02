@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>JavaScript</title>
+<style type="text/css">
+	.estilo1 {
+		background: #FF0000;
+		color: #FFF;
+	}
+
+	.estilo2 {
+		background: #FF0000;
+		color: #FFF;
+		width: 500px;
+		height: 200px;
+		background-color: green;
+		text-align: center;
+		font-size: 3em;
+		padding: 25px;
+
+	}
+
+	.estilo3 {
+		background: yellow;
+	}
+
+	.estilo4 {
+		background: pink;
+	}
+
+
+
+</style>
+
+
+<script>
+	function modificaClasse() {
+		document.getElementById('mensagem').className = 'estilo2'
+	}
+	//como volto ao que era no segundo clique?
+
+	function ficaAmarelo() {
+		document.getElementById('focusinput').className = 'estilo3'
+
+	}
+	//acima era o meu jeito de fazer
+	
+
+	/*function acionaCampo() {
+document.getElementById('focusinput').style.background = "yellow"
+}*/
+
+	function validaCampo() {
+	let valorCampo = document.getElementById('focusinput').value
+	if(valorCampo.length < 3) {
+	document.getElementById('focusinput').style.background = "red"
+} 	
+	else {
+	document.getElementById('focusinput').style.background = "green"
+	}
+}
+
+</script>
+
+
+
+</head>
+
+
+<body>
+	<div id="mensagem" class="estilo1">MODIFICANDO A CLASSE DO ELEMENTO</div>
+	<hr>
+	<button type="button" onclick="modificaClasse()">APLICAR CLASSE</button>
+
+	<input id="focusinput" type="text" name="" onfocus=" ficaAmarelo()" onblur="validaCampo()">
+
+
+
+	
+
+	
+
+</body>
+
+</html>

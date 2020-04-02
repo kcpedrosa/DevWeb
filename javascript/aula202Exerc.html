@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>JavaScript</title>
+
+	<script>
+		
+		var objetos = Array()
+
+		objetos[0] = 'cadeira'
+		objetos[1] = 'impressora'
+		objetos[2] = 'garfo'
+		
+
+		console.log(objetos.sort())
+	
+		function adicionarObjetos() {
+			var objeto = document.getElementById('objeto').value
+			if(objeto != '') {
+				if(objetos.indexOf(objeto) !== -1){
+					alert('Objeto ja foi adicionado')
+				} else {
+					objetos.push(objeto)
+					console.log(objetos)
+					//qual seria a funcao dos codigos abaixo ?
+					document.getElementById('objeto').value = ''
+				}
+				} else {
+					alert('informe objeto valido')
+				}
+			}
+		
+		
+
+		function ordenarObjetos() {
+			objetos.sort()
+			console.log(objetos)
+		}
+		
+		
+
+	</script>
+
+
+
+</head>
+
+
+<body>
+
+	<input id="objeto" type="text" >
+	<button onclick="adicionarObjetos()">Adicionar</button>
+	<button onclick="ordenarObjetos()">Ordenar</button>
+	
+
+</body>
+
+</html>

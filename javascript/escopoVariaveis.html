@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>JavaScript escopo de variaveis 174</title>
+
+<script>
+	
+	var serie = 'HOUSE'
+
+	//escopo de bloco
+	if (true) {
+		var serie2 = 'Game of Thrones'
+		document.write(serie)
+	}
+
+	document.write(serie2)
+
+	document.write('<br/>')
+
+	function x() {
+		var serie3 = 'The Walking Dead'
+		document.write(serie)
+		document.write(serie2)
+		document.write('proxima serie dentro da f : ')
+		document.write(serie3)
+	}
+
+	x()
+	document.write('proxima serie FORA da f : ')
+	document.write(serie3)
+
+	document.write('<br/>')
+
+
+
+
+
+</script>
+
+
+
+</head>
+
+
+<body>
+	
+
+</body>
+
+</html>

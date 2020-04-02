@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>JavaScript</title>
+
+<script>
+	function modificaEstilo(cordefundo, l, a) {
+		alert(cordefundo)
+		document.getElementById('quadrado').style.backgroundColor = cordefundo
+		document.getElementById('quadrado').style.width = l
+		document.getElementById('quadrado').style.height = a
+	}
+	//essa aula é MT IMPORTANTE
+	
+</script>
+
+
+
+</head>
+
+
+<body>
+
+	<h3>MANIPULANDO ESTILOS</h3>
+
+	<button type="button" onclick="modificaEstilo('#FF0000','200px', '400px')">Vermelho</button>
+	<button type="button" onclick="modificaEstilo('#00FF00','150px','20px')">Verde</button>
+	<button type="button" onclick="modificaEstilo('#0000FF','250px', '20px')">Azul</button>
+
+	<hr/>
+	<div style="border: solid 1px #000; width: 100px; height: 100px" id="quadrado"></div>
+
+
+	
+
+</body>
+
+</html>

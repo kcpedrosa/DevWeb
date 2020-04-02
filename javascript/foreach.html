@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>JavaScript</title>
+
+	<script>
+		
+		var listafuncionarios = ['jow', 'jam', 'jose','ana', 'maria']
+
+		/*
+		listafuncionarios['x'] = 'jow'
+		listafuncionarios[false] = 'jam'
+		listafuncionarios['3'] = 'jose'
+		listafuncionarios['27'] = 'ana'
+		listafuncionarios['-12'] = 'maria'
+		*/
+
+
+		/*
+		var f = function(valor, indice, array){
+			console.log(valor, indice)
+		}
+
+		listafuncionarios.forEach(f)
+		*/
+
+		/*var listaconvidados = Array()
+
+		listaconvidados['a'] = 'jorge'
+		listaconvidados[10] = 'jam'
+		listaconvidados['zebra'] = 'jose'
+		listaconvidados[-1] = 'ana'
+		listaconvidados[true] = 'maria'
+		*/
+
+		
+		console.log(listafuncionarios)
+
+		listafuncionarios.forEach(function(valor, indice, array){
+			console.log('indice ' + indice + ' valor ' + valor)
+			document.write(' indice ' + indice + ' valor ' + valor + '</br>')
+
+			if (valor == 'jose') {
+				array[indice] = 'Um novo valor'
+				//se achar Lucas substitui por 'um novo valor'
+			}
+
+		})
+
+		
+		
+		document.write('<hr/>')
+		console.log(listafuncionarios)
+
+	
+		
+
+	</script>
+
+</head>
+
+
+<body>
+
+	
+
+</body>
+
+</html>
