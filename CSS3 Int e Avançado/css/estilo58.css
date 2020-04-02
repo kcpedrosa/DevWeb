@@ -1,0 +1,112 @@
+/*===============
+L A Y O U T S 
+===============================*/
+
+body {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background: #f2f2f2;
+}
+
+#container {
+	
+	width: 960px;
+	margin: 0 auto;
+	/*auto para as laterais tem efeito de
+	centralizar o conteudo*/
+	background: #fff url(../imagens/coluna.png) 
+	repeat-y left top;
+
+	min-width: 720px;
+	
+}
+
+#marca {
+	height: 200px;
+	background: #225992 url(../imagens/cabecalho2.jpg) 
+	no-repeat center;
+	text-align: center;
+	line-height: 200px;
+}
+
+img.img-noticia {
+	width: 94%;
+	padding: 2%;
+	/*max-width: 600px;*/
+}
+/*
+#imagem {
+	width: 90%;
+	overflow: hidden;
+	border: 1px solid red;
+}
+*/
+
+#conteudo {
+	
+	width: 74%;
+	float: right;
+
+}
+
+#navegacao {
+	
+	width: 22%;
+	float: left;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	/*background: #CEF6F5;*/
+
+}
+
+#conteudo-principal {
+	width: 64%;
+	float: left;
+	
+}
+
+#conteudo-secundario {
+	width: 33%;
+	float: right;
+	background: #d1d1d1;
+	
+	
+}
+
+#conteudo-secundario h1,
+#conteudo-secundario h2,
+#conteudo-secundario h3,
+#conteudo-secundario p {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+
+
+
+#navegacao ul {
+	list-style: none;
+
+}
+
+#navegacao li a {
+	text-decoration: none;
+	text-align: center;
+	/*border: 1px solid red;*/
+	display: block;
+	width: 100px;
+	line-height: 20px;
+	color: black;
+	/*background: #A9F5F2;*/
+}
+
+#navegacao li a:hover {
+	
+	background-color: #D8D8D8;
+	color: #FFF;
+}
+
+#rodape {
+	clear: both;
+	background: #c4c4c4;
+	padding: 5px;
+}

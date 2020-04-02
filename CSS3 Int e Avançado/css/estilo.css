@@ -1,0 +1,278 @@
+/*SELETOR UNIVERSAL*/
+/*
+* {
+	border: 1px solid red;
+}
+
+h1{
+	color: blue;
+}
+*/
+/*seletor de CLASSE*/
+
+/*
+p.verde{
+	color: green;
+}
+
+/*Seletor de ID*/
+/*#cabecalho {
+	border: 1px solid blue;
+}*/
+
+
+/*Seletor de FILHO
+seleciona filho direto, se a estiver dentro
+de um span q por sua vez está em li, o a
+nao sera afetado*/
+/*
+li>a{
+	color: red;
+	text-decoration: none;
+}*/
+
+/*Seletor de DESCENDENTE
+usando o caso passado, aqui o a seria afetado msm
+tendo o span no meio*/
+/*
+div a {
+	color: green;
+}*/
+/*Seletor de ~IRMAO ADJACENTE
+aplica logo no p que estiver em baixo do h1,
+só um, o imediat após*/
+/*h1 + p {
+	color: red;
+}
+*/
+/*seletor de IRMAO GERAL
+p tem que estar logo após, havendo 3 p após
+os três ficarão PINK*/
+/*
+h1~p{
+	color: pink;
+}*/
+
+/*===================================
+HERANCA E ESPECIFICIDADE
+==============================================
+*/
+/* veja a diferença entre * e body
+* {
+	border: 1px solid red;
+}*/
+
+/*body {
+	color: green;
+	border: 1px solid red;
+}*/
+/*
+
+p {
+	color: blue ;
+}
+
+/*o ultimo q é aplicado, mesmo q vc ponha #pagina p
+ ... a n ser q vc escreva
+!important após o blue */
+/*
+
+p {
+	color: red;
+}
+
+*/
+/*
+* {
+	color: red;
+}
+*/
+/*seletor MAIS ESPECIF tera precedencia*/
+/*h2 {
+	color: blue;
+}*/
+/*AINDA MAIS especifico */
+/*h2.verde{
+	color: green;
+}*/
+/*ID é mais ESPECIF que a CLASS*/
+/*h2#amarelo{
+	color: yellow;
+}
+*/
+/*====================================
+BARRA DE NAVEGACAO VERTICAL
+============================================
+*/
+/*
+ul {
+	
+	list-style-type: none; 
+	margin: 0;
+	padding: 0;
+}
+*/
+/*
+li {
+	padding: 5px 20px;
+	
+	background: url(../imagens53/seta.png) 
+	no-repeat left center;
+}*/
+/*
+ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+*/	
+
+/*veja ''a'', nele, o link nao é elemento block, e sim
+	inline, aplicando a borda, ela termina no fim da palavra
+	pra alcancar width de 400px, necess colocar display BLOCK
+	para alterar o comportamento*/
+	/*
+ul a {
+	/*border: 1px solid red;*/
+	/*width: 200px;
+	height: 40px;
+	line-height: 40px;
+	display: block;
+	color: #000;
+	text-decoration: none;
+	text-indent: 40px;
+
+	
+	background: #f7b600 url(../imagens53/menu.png) no-repeat left bottom;
+}*/
+/*
+a:hover {
+	background-position: right bottom;
+	background-color: #f99200;
+	color: #FFF;
+}*/
+/*
+#home #navegacao .home a, 
+#sobre #navegacao .sobre a,
+#servicos #navegacao .servicos a,
+#noticias #navegacao .noticias a,
+#contato #navegacao .contato a {
+	background-position: right bottom;
+	background-color: #f99200;
+	color: #FFF;
+}*/
+/*prof disse sobre esses BOTTOMs aparentemente inuteis
+Olá Jorge, tudo bem? Apenas coloquei por força do hábito :), 
+porém recomendo sempre utilizar para eventuais problemas com o layout.
+
+Qualquer outra dúvida estarei a disposição.
+Abraço!*/
+
+/*=====================================
+BARRA DE NAVEGACAO H O R I Z O N T A L 
+==============================================*/
+/*
+ul#navegacao {
+	
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	width: 720px;
+	background: #159cb0 url(../imagens5354/fundo-horizontal.png)
+	repeat-x;
+	float: left;
+
+}*/
+
+/*
+ul li {
+	
+	float: left; 
+}*/
+/*
+ul a {
+	display: block;
+	padding: 0 2em;
+	line-height: 2.2em;
+	text-decoration: none;
+	color: #FFF;
+	background: url(../imagens5354/divisor.png)
+	repeat-y left top
+	/*nem precisaria de lef top
+	pois é o padrao ;
+
+
+}*/
+/*
+ul .primeiro a {
+	background: none;
+	/*remove o 1o divisor
+}*/
+
+/*
+ul a:hover {
+	color: #085662;
+	background: #44cade;
+}*/
+
+/*
+#home #navegacao .home a, 
+#sobre #navegacao .sobre a,
+#servicos #navegacao .servicos a,
+#noticias #navegacao .noticias a,
+#contato #navegacao .contato a {
+	color: #085662;
+	background: #44cade;
+	} */
+
+/*==============
+barra de navegação COM ABAS
+==================================*/
+
+body {
+	font-family: "Trebuchet MS", Helvetica,
+	sans-serif;
+	}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	width: 720px;
+
+}
+
+ul li {
+	
+	float: left;
+	background: url(../imagens5354/aba-direita.png)
+	no-repeat top right;
+
+}
+
+li a {
+	display: block;
+	padding: 0 2em;
+	line-height: 3em;
+	text-decoration: none;
+	background: url(../imagens5354/aba-esquerda.png)
+	no-repeat top left;
+	color: #FFF;
+
+
+
+}
+
+ul a:hover {
+	color: #894a1f;
+}
+
+ul #atual {
+	background: url(../imagens5354/aba-direita-atual.png)
+	no-repeat top right;
+}
+
+ul #atual a {
+	background: url(../imagens5354/aba-esquerda-atual.png)
+	no-repeat top left;
+}

@@ -1,0 +1,47 @@
+/*===============
+ ESTILIZANDO F O R M U L A R I O S
+=========================================*/
+
+
+body {
+	font-family: "Trebuchet MS", "Helvetica", sans-serif;
+
+}
+
+fieldset {
+	margin: 1em 0;
+	/*1em para o top bot e 0 p laterais*/
+	
+	padding: 1em;
+	background: #f8f8f8;
+}
+
+legend {
+	font-weight: bold;
+}
+
+label {
+	
+	display: block;
+	cursor: pointer;
+}
+
+input  { /*[type="text"]*/
+	width: 20em;
+	/*border: 1px solid red;*/
+}
+
+
+
+textarea {
+	width: 20em;
+	height: 10em;
+}
+
+input.radio, input.checkbox, input.submit {
+	width: auto;
+}
+
+.radio {
+	margin-right: 1em;
+}

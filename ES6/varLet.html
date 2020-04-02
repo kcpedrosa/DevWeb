@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title></title>
+	
+	<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+	<script type="text/babel">
+
+	//3 escopos: global, funcao e bloco
+	/*
+	var serie = 'Friends'
+
+	function x() {
+
+		var serie = "TheWitcher"
+		console.log('funcao: ' + serie)
+
+		if(true) {
+			console.log('bloco dentro da funcao: ' + serie)
+		}
+
+	}
+	x()
+
+	if(true) {
+		console.log('global: ' + serie)
+			
+		}
+	*/
+
+	if (true) {
+		let serie = 'HOUSE'
+		console.log(serie)
+	}
+
+	console.log(serie)
+
+	let serie = 'LOTR'
+
+	{
+		let serie = 'CSI'
+		console.log('dentro do bloco:' + serie)
+	}
+
+	console.log( 'fora do bloco:' + serie)
+
+	//efeito do 'hoisting' vai do escopo de bloco para o global e sobrescreve a var serie LOTR
+
+	</script>
+
+</head>
+<body>
+	<div id="output"></div>
+</body>
+</html>

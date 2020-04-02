@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'FlutedGermanica';
+    src: url('FlutedGermanica.woff2') format('woff2'),
+        url('FlutedGermanica.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PlainGermanica';
+    src: url('PlainGermanica.woff2') format('woff2'),
+        url('PlainGermanica.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+

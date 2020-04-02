@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'FoglihtenNo01';
+    src: url('FoglihtenNo01.woff2') format('woff2'),
+        url('FoglihtenNo01.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+

@@ -1,0 +1,72 @@
+/*ANIMACOES
+=======================*/
+
+@-webkit-keyframes animacao-caixa {
+	from {
+		background: red;
+	}
+	to{
+		background: green;
+	}
+}
+@-moz-keyframes animacao-caixa {
+	from {
+		background: red;
+	}
+	to{
+		background: green;
+	}
+}
+@-o-keyframes animacao-caixa {
+	from {
+		background: red;
+	}
+	to{
+		background: green;
+	}
+}
+
+@keyframes animacao-caixa {
+	from {
+		background: url(../imagens/whats3.jpg);
+		background-position: center;
+		border-radius: 0px;
+		top: 0;
+		left: 0;
+	}
+	to{
+		background: url(../imagens/whats3.jpg);
+		background-position: center;
+		border-radius: 300px;
+		top: 200px;
+		left: 200px;
+	}
+}
+
+#caixa {
+	margin: 15px;
+	border: 1px solid red;
+	width: 400px;
+	height: 400px;
+	background: url(../imagens/whats3.jpg);
+	background-position: center;
+	position: relative;
+	/*usar prefixos*/
+	/*
+	animation-name: animacao-caixa;
+	animation-duration: 5s;
+	animation-delay: 3s;
+	animation-iteration-count: 2;
+	animation-direction: alternate;
+	*/
+	/*-webkit-animation: animacao-caixa 5s 3s 2 alternate;*/
+	animation: animacao-caixa 5s 1s 10 alternate;
+
+	}
+
+
+
+#caixa h1 {
+	
+
+}

@@ -1,0 +1,24 @@
+
+
+/*=====================================
+BARRA DE NAVEGACAO H O R I Z O N T A L 
+==============================================*/
+
+ul {
+	
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	width: 720px;
+	background: #159cb0 url(../imagens5354/fundo-horizontal.png)
+	repeat-x;
+
+}
+
+
+ul li {
+	border: 1px solid red;
+	float: left; 
+}
+
+

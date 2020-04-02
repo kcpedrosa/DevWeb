@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title></title>
+	
+	<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+	<script type="text/babel">
+
+		function contarHistoria(personagem = 'DIABLO', atividade = 'torture souls', nomedono = 'zé') {
+			document.write(`era uma vez um cachorro chamado ${personagem}, ele adorava ${atividade} e o nome do seu dono era ${nomedono} e fim </br>`)
+		}
+
+		contarHistoria(undefined, 'correr muito', 'KRLS')
+
+		contarHistoria(undefined, undefined, undefined)
+
+	</script>
+
+</head>
+<body>
+	<div id="output"></div>
+</body>
+</html>
