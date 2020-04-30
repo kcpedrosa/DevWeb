@@ -1,0 +1,812 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"p",
+				"parImpar"
+			],
+			[
+				"no",
+				"nomedono"
+			],
+			[
+				"cra",
+				"criaMosquitoTempo"
+			],
+			[
+				"cria",
+				"criaMosquito"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"backg",
+				"background-color\tproperty"
+			],
+			[
+				"back",
+				"background-image\tproperty"
+			],
+			[
+				"lad",
+				"ladoAleatorio"
+			],
+			[
+				"mo",
+				"mosquito1"
+			],
+			[
+				"mosquito",
+				"mosquito1"
+			],
+			[
+				"posi",
+				"posicaoY"
+			],
+			[
+				"po",
+				"posicaoY"
+			],
+			[
+				"posicao",
+				"posicaoY"
+			],
+			[
+				"mosq",
+				"mosquito"
+			],
+			[
+				"posica",
+				"posicaoX"
+			],
+			[
+				"li",
+				"link\tTag"
+			],
+			[
+				"re",
+				"resultado"
+			],
+			[
+				"for",
+				"forEach"
+			],
+			[
+				"lis",
+				"listafuncionarios"
+			],
+			[
+				"o",
+				"objetos"
+			],
+			[
+				"valor",
+				"valor_campo"
+			],
+			[
+				"fo",
+				"focusinput"
+			],
+			[
+				"in",
+				"input\tTag"
+			],
+			[
+				"text",
+				"text-align\tproperty"
+			],
+			[
+				"m",
+				"modificaClasse"
+			],
+			[
+				"ap",
+				"apenas_letras"
+			],
+			[
+				"ge",
+				"getElementById"
+			],
+			[
+				"onk",
+				"onkeyup\tAttr"
+			],
+			[
+				"mi",
+				"milisegundos"
+			],
+			[
+				"data",
+				"data2"
+			],
+			[
+				"func",
+				"function"
+			],
+			[
+				"cal",
+				"callbackSucesso"
+			],
+			[
+				"ca",
+				"callbackErro"
+			],
+			[
+				"call",
+				"callbackSucesso"
+			],
+			[
+				"pro",
+				"prompt"
+			],
+			[
+				"teste",
+				"teste2"
+			],
+			[
+				"test",
+				"teste1"
+			],
+			[
+				"num",
+				"num2"
+			],
+			[
+				"faltas",
+				"faltas_maximas"
+			],
+			[
+				"va",
+				"variavel2"
+			],
+			[
+				"vari",
+				"variavel2"
+			],
+			[
+				"v",
+				"variavel2"
+			],
+			[
+				"met",
+				"meta\tTag"
+			],
+			[
+				"carousel",
+				"carousel-indicadores"
+			],
+			[
+				"carou",
+				"carousel-control-prev"
+			],
+			[
+				"col",
+				"col-md-4"
+			],
+			[
+				"d-",
+				"d-flex"
+			],
+			[
+				"navbar",
+				"navbar-nav"
+			],
+			[
+				"padd",
+				"padding\tproperty"
+			],
+			[
+				"c",
+				"col-md-6"
+			],
+			[
+				"margin",
+				"margin\tproperty"
+			],
+			[
+				"borde",
+				"border-radius\tproperty"
+			],
+			[
+				"bord",
+				"border-color\tproperty"
+			],
+			[
+				"ba",
+				"background\tproperty"
+			],
+			[
+				"Col",
+				"col-md-4"
+			],
+			[
+				"img",
+				"img-fluid"
+			],
+			[
+				"btn",
+				"btn-primary"
+			],
+			[
+				"nav",
+				"navbar"
+			],
+			[
+				"st",
+				"style"
+			],
+			[
+				"flex",
+				"flex-column"
+			],
+			[
+				"d",
+				"d-flex"
+			],
+			[
+				"al",
+				"align-items-ALINHAMENTO"
+			],
+			[
+				"align",
+				"align-self-ALINHAMENTO"
+			],
+			[
+				"off",
+				"offset-md-1"
+			],
+			[
+				"co",
+				"col-md-4"
+			],
+			[
+				"marca",
+				"marcador"
+			],
+			[
+				"marc",
+				"marcador"
+			],
+			[
+				"ma",
+				"marcador"
+			],
+			[
+				"page",
+				"page-link"
+			],
+			[
+				"table",
+				"table-striped"
+			],
+			[
+				"thea",
+				"thead-dark"
+			],
+			[
+				"ta",
+				"table-dark"
+			],
+			[
+				"inp",
+				"input-group"
+			],
+			[
+				"input-g",
+				"input-group-append"
+			],
+			[
+				"is",
+				"is-invalid"
+			],
+			[
+				"form",
+				"form-group"
+			],
+			[
+				"list",
+				"list-group-item"
+			],
+			[
+				"fixed",
+				"fixed-top"
+			],
+			[
+				"justi",
+				"justify-content-center"
+			],
+			[
+				"border",
+				"border\tproperty"
+			],
+			[
+				"btn-d",
+				"btn-danger"
+			],
+			[
+				"max-",
+				"max-width\tproperty"
+			],
+			[
+				"roun",
+				"rounded-circle"
+			],
+			[
+				"tex",
+				"text-right"
+			],
+			[
+				"margi",
+				"margin\tproperty"
+			],
+			[
+				"marg",
+				"margin-bottom\tproperty"
+			],
+			[
+				"pa",
+				"padding\tproperty"
+			],
+			[
+				"mar",
+				"margin-left\tproperty"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"text-",
+				"text-indent\tproperty"
+			],
+			[
+				"fle",
+				"flex-grow\tproperty"
+			],
+			[
+				"ord",
+				"ordem1"
+			],
+			[
+				"or",
+				"ordem3"
+			],
+			[
+				"fl",
+				"flex-start\talign-items"
+			],
+			[
+				"spac",
+				"space-between\tjustify-content"
+			],
+			[
+				"wr",
+				"wrap-reverse\tflex-wrap"
+			],
+			[
+				"row",
+				"row-reverse\tflex-direction"
+			],
+			[
+				"au",
+				"autofocus\tAttr"
+			],
+			[
+				"f",
+				"f2f2f2"
+			],
+			[
+				"he",
+				"header\tTag"
+			],
+			[
+				"an",
+				"animation-iteration-count\tproperty"
+			],
+			[
+				"anima",
+				"animation-delay\tproperty"
+			],
+			[
+				"bo",
+				"box-sizing\tproperty"
+			],
+			[
+				"cai",
+				"caixa1"
+			],
+			[
+				"paddi",
+				"padding-bottom\tproperty"
+			],
+			[
+				"max",
+				"max-width\tproperty"
+			],
+			[
+				"topo",
+				"topo-imagem-principal"
+			],
+			[
+				"min",
+				"min-height\tproperty"
+			],
+			[
+				"email",
+				"email"
+			],
+			[
+				"pad",
+				"padding\tproperty"
+			],
+			[
+				"background-c",
+				"background-color\tproperty"
+			],
+			[
+				"border-col",
+				"border-collapse\tproperty"
+			],
+			[
+				"n",
+				"none\tlist-style-type"
+			],
+			[
+				"l",
+				"li\tTag"
+			],
+			[
+				"cl",
+				"clear\tproperty"
+			],
+			[
+				"s",
+				"sticky\tposition"
+			],
+			[
+				"font-s",
+				"font-size\tproperty"
+			],
+			[
+				"text-de",
+				"text-decoration\tproperty"
+			],
+			[
+				"wid",
+				"width\tproperty"
+			],
+			[
+				"fon-s",
+				"font-size\tproperty"
+			],
+			[
+				"border-s",
+				"border-style\tproperty"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"i",
+				"img\tTag"
+			],
+			[
+				"h",
+				"height\tAttr"
+			],
+			[
+				"M",
+				"MG"
+			],
+			[
+				"op",
+				"option\tTag"
+			],
+			[
+				"me",
+				"meta\tTag"
+			],
+			[
+				"ti",
+				"title\tTag"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Install Package Control"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/natha/Videos/DJANGO/teste.html",
+		"/C/Users/natha/Downloads/__init__.cpython-38.pyc",
+		"/C/Users/natha/Videos/DEV WEB/finans/index.html",
+		"/C/Users/natha/Videos/DEV WEB/Projeto Chalé/css/estilo.css",
+		"/C/Users/natha/Videos/DEV WEB/ES6/funcoesParamDefault.html",
+		"/C/Users/natha/Videos/DEV WEB/ES6/configuracao_babbel.html",
+		"/C/Users/natha/Videos/DEV WEB/ES6/templateString.html",
+		"/C/Users/natha/Videos/DEV WEB/ES6/const.html",
+		"/C/Users/natha/Videos/DEV WEB/ES6/varLet.html",
+		"/C/Users/natha/Videos/DEV WEB/Projeto App Mata Mosquito/index.html",
+		"/C/Users/natha/Videos/DEV WEB/Projeto App Mata Mosquito/estilo.css",
+		"/C/Users/natha/Videos/DEV WEB/Projeto App Mata Mosquito/app.html",
+		"/C/Users/natha/Videos/DEV WEB/Projeto App Mata Mosquito/jogo.js",
+		"/C/Users/natha/Videos/DEV WEB/Projeto App Mata Mosquito/fimdejogo.html",
+		"/C/Users/natha/Videos/DEV WEB/Projeto App Mata Mosquito/vitoria.html",
+		"/C/Users/natha/Videos/DEV WEB/javascript/bomTiming.html",
+		"/C/Users/natha/Videos/DEV WEB/HTML5/seedlipdrinks.html",
+		"/C/Users/natha/Videos/DEV WEB/javascript/aula202Exerc.html",
+		"/C/Users/natha/Videos/DEV WEB/javascript/lacosPratica.html",
+		"/C/Users/natha/Videos/DEV WEB/javascript/lacosPraticaEncadeados.html",
+		"/C/Users/natha/Videos/DEV WEB/javascript/bomLocation.html",
+		"/C/Users/natha/Videos/DEV WEB/javascript/bomScreen.html",
+		"/C/Users/natha/Videos/DEV WEB/javascript/domSelecionandoElementos.html",
+		"/C/Users/natha/Videos/DEV WEB/javascript/bomWindow.html",
+		"/C/Users/natha/Videos/DEV WEB/javascript/css/estilo.css",
+		"/C/Users/natha/Videos/DEV WEB/javascript/tratamentoErros.html",
+		"/C/Users/natha/Videos/DEV WEB/Projeto 6 Museu Nacional/css/estilo.css",
+		"/C/Users/natha/Videos/DEV WEB/Projeto 6 Museu Nacional/index.html",
+		"/C/Users/natha/Videos/DEV WEB/projeto-spotify/index.html",
+		"/C/Users/natha/Videos/DEV WEB/javascript/funcoes.html",
+		"/C/Users/natha/Videos/DEV WEB/javascript/foreach.html",
+		"/C/Users/natha/Videos/DEV WEB/javascript/forit.html",
+		"/C/Users/natha/Videos/DEV WEB/javascript/forin.html",
+		"/C/Users/natha/Videos/DEV WEB/javascript/while.html",
+		"/C/Users/natha/Videos/DEV WEB/javascript/doWhile.html",
+		"/C/Users/natha/Videos/DEV WEB/javascript/for.html",
+		"/C/Users/natha/Videos/DEV WEB/javascript/arrayPesquisa.html",
+		"/C/Users/natha/Videos/DEV WEB/javascript/arrayIncluirRemover.html",
+		"/C/Users/natha/Videos/DEV WEB/javascript/arrayMultidimensional.html",
+		"/C/Users/natha/Videos/DEV WEB/javascript/arrayBasico.html",
+		"/C/Users/natha/Videos/DEV WEB/javascript/indexcalc.html",
+		"/C/Users/natha/Videos/DEV WEB/javascript/domManipulandoClasses.html",
+		"/C/Users/natha/Videos/DEV WEB/javascript/aula192exerc.html",
+		"/C/Users/natha/Videos/DEV WEB/javascript/domManipulandoEstilos.html",
+		"/C/Users/natha/Videos/DEV WEB/javascript/domManipulandoValoresInputs.html",
+		"/C/Users/natha/Videos/DEV WEB/javascript/casting.html",
+		"/C/Users/natha/Videos/DEV WEB/javascript/funcoes_datas.html",
+		"/C/Users/natha/Videos/DEV WEB/javascript/funcoesDatas.html",
+		"/C/Users/natha/Videos/DEV WEB/javascript/funcoesCallback.html",
+		"/C/Users/natha/Videos/DEV WEB/javascript/funcoesMatematicas.html",
+		"/C/Users/natha/Videos/DEV WEB/javascript/funcoesStrings.html",
+		"/C/Users/natha/Videos/DEV WEB/javascript/operadoreslogicos.html",
+		"/C/Users/natha/Videos/DEV WEB/javascript/concatenacao.html",
+		"/C/Users/natha/Videos/DEV WEB/javascript/desafioabc.html",
+		"/C/Users/natha/Videos/DEV WEB/javascript/escopoVariaveis.html",
+		"/C/Users/natha/Videos/DEV WEB/javascript/funcoesAnonimas.html",
+		"/C/Users/natha/Videos/DEV WEB/javascript/operadoresAritmeticosOrdemOp.html",
+		"/C/Users/natha/Videos/DEV WEB/javascript/operadoresAritmeticos.html",
+		"/C/Users/natha/Videos/DEV WEB/javascript/operadorescondicionais.html",
+		"/C/Users/natha/Videos/DEV WEB/javascript/faixaEtaria.html",
+		"/C/Users/natha/Videos/DEV WEB/javascript/indiceMassa.html",
+		"/C/Users/natha/Videos/DEV WEB/javascript/indiceMassa",
+		"/C/Users/natha/Videos/DEV WEB/javascript/switch.html",
+		"/C/Users/natha/Videos/DEV WEB/javascript/media158.html",
+		"/C/Users/natha/Videos/DEV WEB/javascript/index.html",
+		"/C/Users/natha/Videos/DEV WEB/javascript/variaveis2.html",
+		"/C/Users/natha/Videos/DEV WEB/projeto-spotify/css/estilo.css",
+		"/C/Users/natha/Videos/DEV WEB/javascript/meu_script.js",
+		"/C/Users/natha/Videos/DEV WEB/javascript/variaveis.html",
+		"/C/Users/natha/Videos/DEV WEB/carousel aula 140/apoio-carousel2.html",
+		"/C/Users/natha/Videos/DEV WEB/carousel aula 140/apoio-carouselteste.html",
+		"/C/Users/natha/Videos/DEV WEB/finans/css/estilo.css",
+		"/C/Users/natha/Videos/DEV WEB/bootstrap-4.4.1-dist/apoio-barra-navegacao.html",
+		"/C/Users/natha/Videos/DEV WEB/projeto-bootstrap4/index.html",
+		"/C/Users/natha/Videos/DEV WEB/projeto-bootstrap4/indexoriginal.html",
+		"/C/Users/natha/Videos/DEV WEB/bootstrap-4.4.1-dist/apoio-font-awesome.html",
+		"/C/Users/natha/Videos/DEV WEB/bootstrap-4.4.1-dist/apoio-margin-wrap.html",
+		"/C/Users/natha/Videos/DEV WEB/bootstrap-4.4.1-dist/apoio-classes-flexbox.html",
+		"/C/Users/natha/Videos/DEV WEB/bootstrap-4.4.1-dist/apoio-alinhamento-grid.html",
+		"/C/Users/natha/Videos/DEV WEB/bootstrap-4.4.1-dist/apoio-grid.html",
+		"/C/Users/natha/Videos/DEV WEB/bootstrap-4.4.1-dist/apoio-configuracoes-grid.html",
+		"/C/Users/natha/Videos/DEV WEB/bootstrap-4.4.1-dist/apoio-jumbotron-alinhamento-imagens.html",
+		"/C/Users/natha/Videos/DEV WEB/bootstrap-4.4.1-dist/apoio-cartoes-parte1.html",
+		"/C/Users/natha/Videos/DEV WEB/bootstrap-4.4.1-dist/apoio-tabelas-paginacao.html",
+		"/C/Users/natha/Videos/DEV WEB/bootstrap-4.4.1-dist/apoio-alertas-barra-progresso.html",
+		"/C/Users/natha/Videos/DEV WEB/bootstrap-4.4.1-dist/css/bootstrap.css",
+		"/C/Users/natha/Videos/DEV WEB/bootstrap-4.4.1-dist/css/bootstrap.min.css",
+		"/C/Users/natha/Videos/DEV WEB/bootstrap-4.4.1-dist/apoio-input-group.html",
+		"/C/Users/natha/Videos/DEV WEB/bootstrap-4.4.1-dist/apoio-formularios.html",
+		"/C/Users/natha/Videos/DEV WEB/bootstrap-4.4.1-dist/apoio-listas.html",
+		"/C/Users/natha/Videos/DEV WEB/bootstrap-4.4.1-dist/apoio-breakpoints2.html",
+		"/C/Users/natha/Videos/DEV WEB/bootstrap-4.4.1-dist/apoio-botoes.html",
+		"/C/Users/natha/Videos/DEV WEB/bootstrap-4.4.1-dist/apoio-breakpoints.html",
+		"/C/Users/natha/Videos/DEV WEB/media-queries/estilo-impressao.css",
+		"/C/Users/natha/Videos/DEV WEB/media-queries/estilo.css",
+		"/C/Users/natha/Videos/DEV WEB/media-queries/index.html",
+		"/C/Users/natha/Videos/DEV WEB/bootstrap-4.4.1-dist/apoio-margin-padding.html",
+		"/C/Users/natha/Videos/DEV WEB/bootstrap-4.4.1-dist/apoio-tamanhos-bordas.html",
+		"/C/Users/natha/Videos/DEV WEB/bootstrap-4.4.1-dist/apoio-cores-background.html",
+		"/C/Users/natha/Videos/DEV WEB/7/105/apoio-cores-background.html",
+		"/C/Users/natha/Videos/DEV WEB/bootstrap-4.4.1-dist/elementos-flutuantes.html",
+		"/C/Users/natha/Videos/DEV WEB/FONTES/index.html",
+		"/C/Users/natha/Videos/DEV WEB/Projeto 6 Museu Nacional/chomsky.woff",
+		"/C/Users/natha/Videos/DEV WEB/HTML5/novas-tags.html",
+		"/C/Users/natha/Videos/DEV WEB/Projeto 6 Museu Nacional/css/normalize.css",
+		"/C/Users/natha/Videos/DEV WEB/HTML5/flexbox-container94.html",
+		"/C/Users/natha/Videos/DEV WEB/HTML5/js/html5shiv.js",
+		"/C/Users/natha/Videos/DEV WEB/HTML5/css/estilo.css",
+		"/C/Users/natha/Videos/DEV WEB/CSS3 RECURSOS/transicoes.html",
+		"/C/Users/natha/Videos/DEV WEB/CSS3 RECURSOS/css/estilotransicoes.css",
+		"/C/Users/natha/Videos/DEV WEB/CSS3 RECURSOS/border-box.html",
+		"/C/Users/natha/Videos/DEV WEB/CSS3 RECURSOS/css/estilodegrade.css",
+		"/C/Users/natha/Videos/DEV WEB/CSS3 RECURSOS/css/estilosombra.css",
+		"/C/Users/natha/Videos/DEV WEB/CSS3 RECURSOS/css/estilo.css",
+		"/C/Users/natha/Videos/DEV WEB/CSS3 RECURSOS/css/normalize.css",
+		"/C/Users/natha/Videos/DEV WEB/Paralax/index.html",
+		"/C/Users/natha/Videos/DEV WEB/Projeto Chalé/index.html",
+		"/C/Users/natha/Videos/DEV WEB/Projeto Noticias-cidade/brasil.html",
+		"/C/Users/natha/Videos/DEV WEB/Projeto Noticias-cidade/css/estilo.css",
+		"/C/Users/natha/Videos/DEV WEB/Projeto Noticias-cidade/novalegislacao.html",
+		"/C/Users/natha/Videos/DEV WEB/Projeto Noticias-cidade/fotos.html",
+		"/C/Users/natha/Videos/DEV WEB/Projeto Noticias-cidade/internacional.html",
+		"/C/Users/natha/Videos/DEV WEB/CSS3 Int e Avançado/css/estilo.css",
+		"/C/Users/natha/Videos/DEV WEB/CSS3 Int e Avançado/css/estilo64.css",
+		"/C/Users/natha/Videos/DEV WEB/CSS3 Int e Avançado/formularios.html",
+		"/C/Users/natha/Videos/DEV WEB/CSS3 Int e Avançado/css/estilo62.css",
+		"/C/Users/natha/Videos/DEV WEB/CSS3 Int e Avançado/css/estilo61.css",
+		"/C/Users/natha/Videos/DEV WEB/CSS3 Int e Avançado/css/estilo55.css"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 39.3333333333
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "Sti_Trace.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 294.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
